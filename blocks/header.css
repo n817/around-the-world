@@ -1,0 +1,26 @@
+.header {
+  border-bottom: solid 1px rgb(84 84 84 / .7);
+  padding-top: 45px;
+  padding-bottom: 41px;
+}
+
+@media screen and (max-width: 649px) {
+  /* стили для экранов с разрешением менее 650px по ширине */
+  .header {
+    max-width: 100%;
+    padding-top: 28px;
+    padding-bottom: 32px;
+  }
+}
+
+.header__logo {
+  width: 33px;
+}
+
+@media screen and (max-width: 649px) {
+  /* стили для экранов с разрешением менее 650px по ширине */
+  .header__logo {
+    width: 24px;
+    padding-left: 27px;
+  }
+}
