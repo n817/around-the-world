@@ -1,0 +1,32 @@
+.footer {
+  padding-top: 66px;
+  padding-bottom: 60px;
+}
+
+.footer__copyright {
+  font-size: 18px;
+  line-height: 22px;
+  color: #545454;
+}
+
+.footer__author {
+  text-decoration: none;
+  color: #545454;
+  transition: color .3s;
+}
+
+.footer__author:hover {
+  color: #c1c1c1;
+}
+
+@media screen and (max-width: 649px) {
+  .footer {
+    padding-top: 48px;
+    padding-bottom: 36px;
+  }
+
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
